@@ -1,0 +1,17 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    background-color: red;
+}
+
+.navbar {
+    font-size: 30px;
+    background-color: red;
+    font-weight: bolder; 
+}
+
+body {
+    background-color: black;
+}
+
