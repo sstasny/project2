@@ -17,7 +17,7 @@ $(function () {
 function getData() {
 
     var input = $(".search").val();
-    var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+input+"+&api_key=1XcC9qSUbavEbZ998aLqngF5f2djjMxT&limit=30");
+    var xhr = $.get("https://api.giphy.com/v1/gifs/search?q="+input+"+&api_key=1XcC9qSUbavEbZ998aLqngF5f2djjMxT&limit=30");
 
 xhr.done(function(response) {
     console.log("success got data", response);
