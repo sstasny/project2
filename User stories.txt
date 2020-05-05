@@ -1,4 +1,4 @@
 As a user I want to search for the lastest giffs using a search bar and photos.
 
 As a user I want to view multiple giffs on a single page that will allow me to
-share giffs to other users,
+share giffs to other users.
