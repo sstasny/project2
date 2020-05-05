@@ -27,7 +27,7 @@ var jiffs = response.data;
 for (i in jiffs)
 
 {
-    $('.inner').append("<img src='"+jiffs[i].images.original.url+"' style='height:200px; width:200px;'/>")
+    $('.inner').append("<img src='"+jiffs[i].images.original.url+"'/>")
 }
     });
 

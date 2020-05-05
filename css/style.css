@@ -1,53 +1,72 @@
 h1 {
     color: blue;
     text-align: center;
-    font-size: 30px;
-    background-color: black;
-}
-
-.navbar {
     font-size: 50px;
     background-color: black;
-    
 }
 
 
 body {
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
-
+    background-color: black; 
 }
 
 header {
     background-color: black;
     color: blue;
     font-display: blue;
+    padding: 20px;
 
 }
 
 button {
+
     color: blue;
-    text-align: center;
-    
+    padding: 10px;
+
+
 }
 
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Style the content */
+  .content {
+    background-color:black;
+    padding: 10px;
+    color: blue;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: black;
+    padding: 10px;
+    color: blue;
+  }
+
+  .search {
+      padding: 10px;
+  }
+
 .inner {
-    padding: 20px 0 15px 0;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 5px;
+  padding: 20px 0 15px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5px;
 }
 
 .inner img {
-    margin: 5px;
-    border: black 2px solid;
-    width: 250px;
-    height: 250px;
+  margin: 5px;
+  border: black 2px solid;
+  height: 350px;
+  width: 350px;
 }
 
-.navbar {
-    background-color: black;
-    color: blue;
-
-}
