@@ -6,14 +6,16 @@ h1 {
 }
 
 .navbar {
-    font-size: 30px;
+    font-size: 50px;
     background-color: black;
     
 }
 
 
 body {
-    background-color: black; 
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 header {
@@ -26,4 +28,25 @@ header {
 button {
     color: blue;
     
+}
+
+.inner {
+    padding: 20px 0 15px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.inner img {
+    margin: 5px;
+    border: black 2px solid;
+    width: 250px;
+    height: 250px;
+}
+
+.navbar {
+    background-color: black;
+    color: blue;
+
 }
